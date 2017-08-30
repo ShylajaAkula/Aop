@@ -9,6 +9,7 @@ public class Mainapp2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		//shylu modified the code here	
 Resource res=new ClassPathResource("app.xml");
 BeanFactory bf=new XmlBeanFactory(res);
 Object o=bf.getBean("report");
